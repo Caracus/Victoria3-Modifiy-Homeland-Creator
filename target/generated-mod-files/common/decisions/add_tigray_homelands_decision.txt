@@ -1,0 +1,19 @@
+﻿add_tigray_homelands_decision = {
+	is_shown = {
+		is_player = yes
+		country_has_primary_culture = cu:tigray
+	}
+
+	possible = {
+		is_player = yes
+		country_has_primary_culture = cu:tigray
+	}
+
+	when_taken = {
+		trigger_event = { id = add_tigray_primary_homelands.1 }
+	}
+
+	ai_chance = {
+		base = 0
+	}
+}

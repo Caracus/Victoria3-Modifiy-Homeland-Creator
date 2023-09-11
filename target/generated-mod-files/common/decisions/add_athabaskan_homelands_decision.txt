@@ -1,0 +1,19 @@
+﻿add_athabaskan_homelands_decision = {
+	is_shown = {
+		is_player = yes
+		country_has_primary_culture = cu:athabaskan
+	}
+
+	possible = {
+		is_player = yes
+		country_has_primary_culture = cu:athabaskan
+	}
+
+	when_taken = {
+		trigger_event = { id = add_athabaskan_primary_homelands.1 }
+	}
+
+	ai_chance = {
+		base = 0
+	}
+}

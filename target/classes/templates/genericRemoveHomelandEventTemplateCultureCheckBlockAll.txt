@@ -1,0 +1,15 @@
+            if = {
+                limit = {
+                    any_scope_state = {
+                        cu:<cultureName> = {
+                            has_homeland = PREV
+                        }
+                        NOT = {
+                            cu:<cultureName> = {
+                                is_primary_culture_of = ROOT
+                            }
+                        }
+                    }
+                }
+                remove_homeland = <cultureName>
+            }

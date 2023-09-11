@@ -1,0 +1,19 @@
+﻿add_north_andean_homelands_decision = {
+	is_shown = {
+		is_player = yes
+		country_has_primary_culture = cu:north_andean
+	}
+
+	possible = {
+		is_player = yes
+		country_has_primary_culture = cu:north_andean
+	}
+
+	when_taken = {
+		trigger_event = { id = add_north_andean_primary_homelands.1 }
+	}
+
+	ai_chance = {
+		base = 0
+	}
+}

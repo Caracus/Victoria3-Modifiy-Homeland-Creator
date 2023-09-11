@@ -1,0 +1,19 @@
+﻿add_malagasy_homelands_decision = {
+	is_shown = {
+		is_player = yes
+		country_has_primary_culture = cu:malagasy
+	}
+
+	possible = {
+		is_player = yes
+		country_has_primary_culture = cu:malagasy
+	}
+
+	when_taken = {
+		trigger_event = { id = add_malagasy_primary_homelands.1 }
+	}
+
+	ai_chance = {
+		base = 0
+	}
+}

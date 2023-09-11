@@ -1,0 +1,19 @@
+﻿add_brazilian_homelands_decision = {
+	is_shown = {
+		is_player = yes
+		country_has_primary_culture = cu:brazilian
+	}
+
+	possible = {
+		is_player = yes
+		country_has_primary_culture = cu:brazilian
+	}
+
+	when_taken = {
+		trigger_event = { id = add_brazilian_primary_homelands.1 }
+	}
+
+	ai_chance = {
+		base = 0
+	}
+}

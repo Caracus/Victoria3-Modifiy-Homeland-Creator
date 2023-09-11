@@ -1,0 +1,19 @@
+﻿add_berber_homelands_decision = {
+	is_shown = {
+		is_player = yes
+		country_has_primary_culture = cu:berber
+	}
+
+	possible = {
+		is_player = yes
+		country_has_primary_culture = cu:berber
+	}
+
+	when_taken = {
+		trigger_event = { id = add_berber_primary_homelands.1 }
+	}
+
+	ai_chance = {
+		base = 0
+	}
+}

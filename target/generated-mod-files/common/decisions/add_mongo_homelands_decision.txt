@@ -1,0 +1,19 @@
+﻿add_mongo_homelands_decision = {
+	is_shown = {
+		is_player = yes
+		country_has_primary_culture = cu:mongo
+	}
+
+	possible = {
+		is_player = yes
+		country_has_primary_culture = cu:mongo
+	}
+
+	when_taken = {
+		trigger_event = { id = add_mongo_primary_homelands.1 }
+	}
+
+	ai_chance = {
+		base = 0
+	}
+}

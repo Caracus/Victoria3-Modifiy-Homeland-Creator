@@ -1,0 +1,19 @@
+﻿add_maori_homelands_decision = {
+	is_shown = {
+		is_player = yes
+		country_has_primary_culture = cu:maori
+	}
+
+	possible = {
+		is_player = yes
+		country_has_primary_culture = cu:maori
+	}
+
+	when_taken = {
+		trigger_event = { id = add_maori_primary_homelands.1 }
+	}
+
+	ai_chance = {
+		base = 0
+	}
+}

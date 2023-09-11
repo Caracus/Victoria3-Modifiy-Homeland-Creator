@@ -1,0 +1,19 @@
+﻿add_bakongo_homelands_decision = {
+	is_shown = {
+		is_player = yes
+		country_has_primary_culture = cu:bakongo
+	}
+
+	possible = {
+		is_player = yes
+		country_has_primary_culture = cu:bakongo
+	}
+
+	when_taken = {
+		trigger_event = { id = add_bakongo_primary_homelands.1 }
+	}
+
+	ai_chance = {
+		base = 0
+	}
+}

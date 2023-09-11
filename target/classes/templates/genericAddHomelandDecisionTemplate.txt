@@ -1,0 +1,19 @@
+add_<cultureName>_homelands_decision = {
+	is_shown = {
+		is_player = yes
+		country_has_primary_culture = cu:<cultureName>
+	}
+
+	possible = {
+		is_player = yes
+		country_has_primary_culture = cu:<cultureName>
+	}
+
+	when_taken = {
+		trigger_event = { id = add_<cultureName>_primary_homelands.1 }
+	}
+
+	ai_chance = {
+		base = 0
+	}
+}

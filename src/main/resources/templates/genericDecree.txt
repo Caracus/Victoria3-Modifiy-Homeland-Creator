@@ -1,0 +1,14 @@
+decree_modify_homeland = {
+	texture = "gfx/interface/icons/decree/decree_promote_national_values.dds"
+	modifier = {
+
+	}
+	unlocking_technologies = {
+		centralization
+	}
+	cost = 0
+
+	ai_weight = {
+		value = 0
+	}
+}

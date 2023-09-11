@@ -1,0 +1,19 @@
+﻿add_tonga_homelands_decision = {
+	is_shown = {
+		is_player = yes
+		country_has_primary_culture = cu:tonga
+	}
+
+	possible = {
+		is_player = yes
+		country_has_primary_culture = cu:tonga
+	}
+
+	when_taken = {
+		trigger_event = { id = add_tonga_primary_homelands.1 }
+	}
+
+	ai_chance = {
+		base = 0
+	}
+}

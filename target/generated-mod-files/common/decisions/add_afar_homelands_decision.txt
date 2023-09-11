@@ -1,0 +1,19 @@
+﻿add_afar_homelands_decision = {
+	is_shown = {
+		is_player = yes
+		country_has_primary_culture = cu:afar
+	}
+
+	possible = {
+		is_player = yes
+		country_has_primary_culture = cu:afar
+	}
+
+	when_taken = {
+		trigger_event = { id = add_afar_primary_homelands.1 }
+	}
+
+	ai_chance = {
+		base = 0
+	}
+}

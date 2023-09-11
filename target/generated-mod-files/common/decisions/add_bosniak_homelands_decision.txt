@@ -1,0 +1,19 @@
+﻿add_bosniak_homelands_decision = {
+	is_shown = {
+		is_player = yes
+		country_has_primary_culture = cu:bosniak
+	}
+
+	possible = {
+		is_player = yes
+		country_has_primary_culture = cu:bosniak
+	}
+
+	when_taken = {
+		trigger_event = { id = add_bosniak_primary_homelands.1 }
+	}
+
+	ai_chance = {
+		base = 0
+	}
+}

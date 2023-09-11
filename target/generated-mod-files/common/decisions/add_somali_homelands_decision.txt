@@ -1,0 +1,19 @@
+﻿add_somali_homelands_decision = {
+	is_shown = {
+		is_player = yes
+		country_has_primary_culture = cu:somali
+	}
+
+	possible = {
+		is_player = yes
+		country_has_primary_culture = cu:somali
+	}
+
+	when_taken = {
+		trigger_event = { id = add_somali_primary_homelands.1 }
+	}
+
+	ai_chance = {
+		base = 0
+	}
+}
