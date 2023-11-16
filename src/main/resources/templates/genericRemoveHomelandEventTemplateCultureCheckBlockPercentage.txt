@@ -15,5 +15,5 @@
                         }
                     }
                 }
-                remove_homeland = <cultureName>
+                remove_homeland = cu:<cultureName>
             }

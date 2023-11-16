@@ -39,7 +39,7 @@ add_<cultureName>_primary_homelands.1 = {
 					}
 				}
 			}
-				add_homeland = <cultureName>
+				add_homeland = cu:<cultureName>
 		}
 	}
 	option = {
@@ -62,7 +62,7 @@ add_<cultureName>_primary_homelands.1 = {
 					}
 				}
 			}
-				add_homeland = <cultureName>
+				add_homeland = cu:<cultureName>
 		}
 	}
 	option = {
@@ -85,7 +85,7 @@ add_<cultureName>_primary_homelands.1 = {
 					}
 				}
 			}
-				add_homeland = <cultureName>
+				add_homeland = cu:<cultureName>
 		}
 	}
 	option = {
@@ -108,7 +108,7 @@ add_<cultureName>_primary_homelands.1 = {
 					}
 				}
 			}
-				add_homeland = <cultureName>
+				add_homeland = cu:<cultureName>
 		}
 	}
 	option = {
@@ -131,7 +131,7 @@ add_<cultureName>_primary_homelands.1 = {
 					}
 				}
 			}
-				add_homeland = <cultureName>
+				add_homeland = cu:<cultureName>
 		}
 	}
 }

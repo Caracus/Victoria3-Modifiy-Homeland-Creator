@@ -5,7 +5,10 @@ import org.victoria_3_modify_homelands_creator.parsers.getCultureListConfigurati
 
 fun main(args: Array<String>) {
 
-    var cultureNameListConfiguration = getCultureListConfiguration()
+    //val configFileName = "VanillaCulturesConfiguration"
+    val configFileName = "SyncreticCulturesConfiguration"
+
+    var cultureNameListConfiguration = getCultureListConfiguration(configFileName)
 
     //variable
     createRemoveHomelandEvent(cultureNameListConfiguration)
